@@ -1,0 +1,360 @@
+@font-face{
+font-family : ZT Mota;
+src :url(“ZTMota-Regular.ttf”);
+}
+
+body{
+	margin:0;
+}
+
+
+
+.logo{
+	width:15%;
+	height:auto;
+	background-color:white;
+	display: flex;
+    justify-content: flex-end;
+}
+
+header{
+	width:100%;
+	height:auto;
+	display:flex;
+	flex-direction: row-reverse;
+	background-color:white;
+	margin-right:30px;
+}
+
+/*nav{
+	width:80%;
+	height:auto;
+	background-color:#f6ac69;
+	display:flex;
+	justify-content: space-evenly;
+    align-items: center;
+}*/
+
+main{
+	width:100%;
+	height:auto;
+	display:flex;
+	background-color:#f6ac69;
+}
+
+.izq{
+	width:30%;
+	height:auto;
+	
+}
+
+.der{
+	width:30%;
+	height:auto;
+	display:flex;
+	flex-direction: column;
+}
+
+.fotos{
+	width:100%;
+	height:auto;
+
+}
+
+
+.izq img{/*adaptamos img del fondo al div*/
+	width:66%;
+	height:100%;
+}
+.logo img{
+	width:70%;
+	height:auto;
+}
+.fotos img{
+	width:100%;
+	height:100%;
+	
+}
+.iconos{
+	width:20%;
+	height:20%;
+}
+h1{
+font-family : Cambria Math;
+color:white;
+font-size:50px;	
+}
+.centro{
+	display:flex;
+	flex-direction: column;
+}
+main p{
+	color:white;
+	font-size:25px;
+	font-family : Cambria Math;
+}
+
+footer{
+	width:100%;
+	height:auto;
+	background-color:white;
+	display:flex;
+	flex-direction: row-reverse
+	
+}
+
+footer, .main2 p{
+	color:black;
+	font-family : Cambria Math;
+	font-size:20px;
+	line-height:25px;
+}
+.vaso img{
+	width:20%;
+	height:auto;
+}
+
+.vaso{
+	width:25%;
+	height:100px;
+	display:flex;
+    flex-direction: row-reverse;
+	margin-right:30px;
+	margin-top:20px;
+}
+	
+	
+.contactos{
+	width:40%;
+	height:auto;
+	display:flex;
+	flex-direction:column;
+}
+
+
+
+nav{
+	/*max-width:900px;*/
+	width:85%;
+	height:auto;
+	margin:auto;
+	background-color:#f6ac69;
+	font-size:20px;
+	margin-top:50px;
+	display:flex;
+	justify-content: space-evenly;
+    align-items: center;
+	border-top-right-radius:20px;
+	border-bottom-right-radius:20px;
+	border-top-left-radius:20px;
+	border-bottom-left-radius:20px;
+	margin:auto;
+	margin-left: 1%;
+	font-family : Cambria Math;
+    
+}
+
+/*nav a:link, nav a:visited{
+	color:black;
+	text-decoration:none;
+	width:13%;
+	height:40px;
+	transition:all 1s;
+	
+}
+nav a:hover{
+	color:black;
+	background-color:#f6ac69;;
+	
+}*/
+.menuhorizontal{
+	list-style:none;
+	display:flex;
+	justify-content:space-around;
+	width:90%;
+}
+/*
+.menuhorizontal > li > a:link{
+	display:block;
+	padding:15px 20px;
+	color:black;
+	text-decoration:none;
+	width:13%;
+	height:40px;
+	transition:all 1s;
+	
+	
+	
+}
+
+.menuhorizontal > li > a:hover{
+
+  color:black;
+  background-color:#f6ac69;;
+
+
+}*/
+
+.menu:link{
+	display:block;
+	padding:15px 20px;
+	color:white;
+	text-decoration:none;
+	width:13%;
+	height:40px;
+	transition:all 1s;;
+}
+
+.menu:hover{ 
+   color:black;
+   background-color:#f6ac69;
+
+}
+.nosotros:link {
+	display:block;
+	padding:15px 20px;
+	color:white;
+	text-decoration:none;
+	width:13%;
+	height:40px;
+	transition:all 1s;;
+}
+
+.nosotros:hover{ 
+   color:black;
+   background-color:#f6ac69;
+
+}
+
+
+
+
+
+
+
+.menuhorizontal > li:hover{
+	background-color:#f6ac69;
+}
+.menuvertical{
+	position:absolute;
+	display:none;
+	list-style:none;
+	width:200px;
+	background-color:rgba(0, 0, 0, .5);
+}
+.menuhorizontal li:hover .menuvertical{
+	display:block;
+}
+
+.menuvertical li:hover{
+	background-color:#f6ac69;
+}
+.menuvertical li a, visited{
+	display:block;
+	color:white;
+	padding:5px 5px 5px 10px;
+	text-decoration:none;
+}
+
+.wowslider-container1{
+	width:100%;
+	height:auto;
+}
+.cartel{
+	width:30%;
+	height:auto;
+}
+
+.cartel img{
+	width:70%;
+	height:auto;
+	margin-top:20px;
+	
+}
+
+
+/*-----------------------------NOSOTROS-------------------------------------*/
+.padre{
+	width:100%;
+	height:auto;
+	background-color:white;
+	display:flex;
+}
+
+
+.historia{
+width:45%;
+height:auto;
+background-color:white;
+margin-left:80px;
+text-align:justify;
+}
+
+
+.hadid{
+	width:25%;
+	height:auto;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	margin-left:50px;
+}
+.hadid img{
+	width:70%;
+	height:250px;
+	margin-top:20px;;
+}
+.info{
+	width:17%;
+	height:200px;
+	display:flex;
+	margin-bottom:50px;
+	margin-top:50px;
+}
+.contenedor{
+	width:15%;
+	height:auto;
+	display:flex;
+	flex-direction:column;
+}
+/*.main2{
+	padding:20px;
+}*/
+
+h2{
+	;font-family : Cambria Math
+}
+	ul{
+		font-family : Cambria Math;
+		font-size:20px;
+	}
+/*---------------------catering---------------------------*/
+
+.tarjetas{
+	height:auto;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: space-evenly;
+	
+}
+.tar{
+	width:25%;
+	height:auto;
+	/*background-color:orange;*/
+	margin-bottom:2%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
+	border-radius:10px;
+	border-color:#a0a3a1;
+	border-width:1px;
+	border-style:solid;
+	padding:1%;
+
+}
+h2{
+	text-align:center;
+	color:#875f3a;
+	font-size:25px;
+}
